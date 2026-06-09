@@ -1,0 +1,140 @@
+# ================================
+# Backend
+# ================================
+
+# Backend dependencies
+backend/node_modules/
+backend/package-lock.json
+
+# Backend environment
+backend/.env
+backend/.env.local
+backend/.env.*.local
+
+# Backend logs
+backend/logs/
+backend/*.log
+backend/npm-debug.log*
+
+# Backend build (if any)
+backend/dist/
+backend/build/
+
+# Backend temporary files
+backend/temp/
+backend/tmp/
+backend/uploads/
+backend/*.pid
+
+# ================================
+# Frontend (keeping your existing patterns)
+# ================================
+
+# Frontend dependencies
+frontend/node_modules/
+frontend/.pnp
+frontend/.pnp.js
+frontend/package-lock.json
+
+# Frontend testing
+frontend/coverage/
+
+# Frontend production
+frontend/build/
+
+# Frontend environment
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# Frontend logs
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# ================================
+# Shared / Root Level
+# ================================
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# Docker files (keep docker-compose.yml but ignore overrides)
+docker-compose.override.yml
+docker-compose.*.yml
+!.docker-compose.yml
+*.pid
+.env.docker
+
+# Database files
+data/
+mongodb-data/
+dump/
+*.db
+*.sqlite
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+*.tmp
+*.temp
+
+# Archive files
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Secrets and keys
+*.pem
+*.key
+*.crt
+*.cert
+*.secret
+*.secrets
+secrets/
+keys/
+credentials.json
+
+# Logs
+logs/
+*.log
+
+# Coverage reports
+coverage/
+.nyc_output/
+
+# Git
+*.orig
+*.rej
+
+# Environment (root level)
+.env
+.env.local
+.env.*.local
+.env.production
+.env.development
+
+# Package manager locks (optional - keep if you want)
+# package-lock.json (remove this line if you want to keep lock files)

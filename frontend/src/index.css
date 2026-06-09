@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --primary: 14 165 233;
+    --secondary: 30 41 59;
+    --success: 34 197 94;
+    --warning: 245 158 11;
+    --danger: 239 68 68;
+  }
+
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply font-sans text-secondary-900 bg-gradient-to-br from-primary-50/30 to-white min-h-screen;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  ::-webkit-scrollbar {
+    @apply w-2;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-secondary-100;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-primary-300 rounded-full hover:bg-primary-400;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply px-6 py-3 bg-gradient-primary text-white font-semibold rounded-xl 
+           hover:shadow-xl hover:-translate-y-0.5 transform transition-all duration-300 
+           focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 
+           disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:transform-none;
+  }
+
+  .btn-secondary {
+    @apply px-6 py-3 bg-white text-primary-700 font-semibold rounded-xl 
+           border-2 border-primary-200 hover:border-primary-300 
+           hover:shadow-lg transform transition-all duration-300 
+           focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2;
+  }
+
+  .btn-outline {
+    @apply px-6 py-3 bg-transparent text-secondary-700 font-semibold rounded-xl 
+           border-2 border-secondary-200 hover:border-secondary-300 
+           hover:bg-secondary-50 transform transition-all duration-300 
+           focus:outline-none focus:ring-2 focus:ring-secondary-500 focus:ring-offset-2;
+  }
+
+  .card {
+    @apply bg-white rounded-2xl shadow-card hover:shadow-card-hover 
+           transition-all duration-300 border border-gray-100;
+  }
+
+  .glass-card {
+    @apply bg-white/80 backdrop-blur-sm rounded-2xl shadow-glass 
+           border border-white/20;
+  }
+
+  .input-field {
+    @apply w-full px-4 py-3 bg-white border border-secondary-200 
+           rounded-xl focus:outline-none focus:ring-2 focus:ring-primary-500 
+           focus:border-transparent transition-all duration-300 
+           placeholder:text-secondary-400 disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+
+  .select-field {
+    @apply w-full px-4 py-3 bg-white border border-secondary-200 
+           rounded-xl focus:outline-none focus:ring-2 focus:ring-primary-500 
+           focus:border-transparent transition-all duration-300 
+           appearance-none cursor-pointer;
+  }
+
+  .label {
+    @apply block text-sm font-medium text-secondary-700 mb-2;
+  }
+
+  .page-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8;
+  }
+
+  .section-padding {
+    @apply py-12 md:py-20 lg:py-32;
+  }
+
+  .gradient-text {
+    @apply bg-gradient-primary bg-clip-text text-transparent;
+  }
+}
+
+/* Animations */
+.animate-fade-in {
+  animation: fadeIn 0.8s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Loading spinner */
+.spinner {
+  @apply animate-spin rounded-full border-4 border-primary-100 border-t-primary-600;
+}
+
+/* Invoice status badges */
+.status-badge {
+  @apply px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider;
+}
+
+.status-draft {
+  @apply bg-secondary-100 text-secondary-800;
+}
+
+.status-sent {
+  @apply bg-blue-100 text-blue-800;
+}
+
+.status-paid {
+  @apply bg-success-100 text-success-800;
+}
+
+.status-overdue {
+  @apply bg-danger-100 text-danger-800;
+}
+
+.status-canceled {
+  @apply bg-secondary-100 text-secondary-800;
+}
+
+/* Table styles */
+.data-table {
+  @apply min-w-full divide-y divide-gray-200;
+}
+
+.data-table thead {
+  @apply bg-secondary-50;
+}
+
+.data-table th {
+  @apply px-6 py-3 text-left text-xs font-semibold text-secondary-700 uppercase tracking-wider;
+}
+
+.data-table tbody {
+  @apply bg-white divide-y divide-gray-200;
+}
+
+.data-table td {
+  @apply px-6 py-4 whitespace-nowrap text-sm text-secondary-900;
+}
+
+/* Invoice item rows */
+.invoice-item-row {
+  @apply border-b border-gray-200 last:border-b-0 hover:bg-gray-50 transition-colors;
+}
