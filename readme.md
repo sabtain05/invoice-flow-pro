@@ -1,4 +1,4 @@
-# Invoice Flow Pro 🚀
+# Invoice Flow Pro 
 
 [![React](https://img.shields.io/badge/React-18.2.0-61DAFB?logo=react)](https://reactjs.org/)
 [![Node.js](https://img.shields.io/badge/Node.js-18.x-339933?logo=node.js)](https://nodejs.org/)
@@ -8,23 +8,23 @@
 
 > **Production-ready invoice management SaaS application** - Create, send, and track professional invoices with real-time analytics and PDF generation.
 
-## 📋 Overview
+## Overview
 
 Invoice Flow Pro is a complete, full-stack invoice management solution that helps businesses streamline their billing process. Built with modern technologies and industry best practices, this application handles everything from user authentication to professional PDF invoice generation.
 
-### 🎯 Key Features
+### Key Features
 
-- ✅ **Complete Authentication System** - JWT-based auth with bcrypt password hashing
-- ✅ **Invoice Management** - Create, edit, delete, and view invoices
-- ✅ **PDF Generation** - Professional branded invoices as downloadable PDFs
-- ✅ **Real-time Calculations** - Automatic tax, discount, and total calculations
-- ✅ **Dashboard Analytics** - Real-time statistics and performance metrics
-- ✅ **Client Management** - Store and manage client information
-- ✅ **Responsive Design** - Works on desktop, tablet, and mobile
-- ✅ **Security First** - XSS protection, rate limiting, and secure headers
-- ✅ **Docker Support** - Easy deployment with containerization
+- **Complete Authentication System** - JWT-based auth with bcrypt password hashing
+- **Invoice Management** - Create, edit, delete, and view invoices
+-  **PDF Generation** - Professional branded invoices as downloadable PDFs
+- **Real-time Calculations** - Automatic tax, discount, and total calculations
+- **Dashboard Analytics** - Real-time statistics and performance metrics
+- **Client Management** - Store and manage client information
+- **Responsive Design** - Works on desktop, tablet, and mobile
+- **Security First** - XSS protection, rate limiting, and secure headers
+- **Docker Support** - Easy deployment with containerization
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
 | Technology | Purpose |
@@ -46,7 +46,7 @@ Invoice Flow Pro is a complete, full-stack invoice management solution that help
 | PDFKit | PDF Generation |
 | Helmet + Rate Limit | Security |
 
-## 📸 Screenshots
+## Screenshots
 
 <details>
 <summary>Click to view screenshots</summary>
@@ -61,7 +61,7 @@ Invoice Flow Pro is a complete, full-stack invoice management solution that help
 
 </details>
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -96,3 +96,6 @@ npm install
 
 # Start frontend server
 npm start
+
+
+**A Sabtain Ali production**
