@@ -97,7 +97,3 @@ npm install
 # Start frontend server
 npm start
 
-
-```bash
-
-**A Sabtain Ali production**
