@@ -123,9 +123,9 @@ invoice-flow-pro/
 │   ├── utils/
 │   └── package.json
 │
-├── screenshots/
+|
 ├── README.md
-└── .env.example
+└── .env
 ```
 
 ---
