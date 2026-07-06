@@ -239,7 +239,7 @@ git push origin feature-name
 
 ---
 
-# 🐞 Report Issues
+# Report Issues
 
 If you discover a bug or have a feature request, feel free to open an issue.
 
