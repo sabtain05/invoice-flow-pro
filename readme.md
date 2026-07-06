@@ -135,7 +135,7 @@ invoice-flow-pro/
 ## 1. Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/invoice-flow-pro.git
+git clone https://github.com/sabtain05/invoice-flow-pro.git
 
 cd invoice-flow-pro
 ```
