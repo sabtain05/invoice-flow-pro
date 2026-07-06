@@ -1,6 +1,6 @@
 # Invoice Flow Pro
 
-> 🚀 A production-ready full-stack invoice management SaaS application built with React, Node.js, MongoDB, and Express. Create professional invoices, manage clients, track payments, and generate downloadable PDF invoices.
+>  A production-ready full-stack invoice management SaaS application built with React, Node.js, MongoDB, and Express. Create professional invoices, manage clients, track payments, and generate downloadable PDF invoices.
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)
