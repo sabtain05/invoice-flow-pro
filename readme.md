@@ -22,7 +22,7 @@ The project demonstrates real-world full-stack architecture including secure aut
 
 ## Features
 
-### 🔐 Authentication
+### Authentication
 
 - User Registration
 - Secure Login
