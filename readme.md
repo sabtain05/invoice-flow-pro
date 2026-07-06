@@ -245,7 +245,7 @@ If you discover a bug or have a feature request, feel free to open an issue.
 
 ---
 
-# ⭐ Support
+# Support
 
 If you found this project helpful, consider giving it a ⭐ on GitHub.
 
