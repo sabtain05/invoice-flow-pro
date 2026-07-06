@@ -67,7 +67,7 @@ The project demonstrates real-world full-stack architecture including secure aut
 - Download Invoices
 - Printable Layout
 
-### 📱 Responsive UI
+### Responsive UI
 
 - Mobile Friendly
 - Tablet Support
