@@ -75,7 +75,7 @@ The project demonstrates real-world full-stack architecture including secure aut
 
 ---
 
-# 🛠 Tech Stack
+# Tech Stack
 
 ## Frontend
 
