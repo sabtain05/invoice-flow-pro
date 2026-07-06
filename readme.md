@@ -53,7 +53,7 @@ The project demonstrates real-world full-stack architecture including secure aut
 - Paid
 - Overdue
 
-### 📊 Dashboard
+### Dashboard
 
 - Total Revenue
 - Total Invoices
