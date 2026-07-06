@@ -130,7 +130,7 @@ invoice-flow-pro/
 
 ---
 
-# 🚀 Getting Started
+# Getting Started
 
 ## 1. Clone Repository
 
