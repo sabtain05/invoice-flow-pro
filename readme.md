@@ -211,7 +211,7 @@ npm start
 
 ---
 
-# 🤝 Contributing
+# Contributing
 
 Contributions are welcome.
 
