@@ -196,32 +196,6 @@ npm start
 
 ---
 
-# 📸 Screenshots
-
-## Dashboard
-
-> Add Screenshot Here
-
----
-
-## Invoice List
-
-> Add Screenshot Here
-
----
-
-## Create Invoice
-
-> Add Screenshot Here
-
----
-
-## PDF Invoice
-
-> Add Screenshot Here
-
----
-
 # 📈 Future Improvements
 
 - Stripe Integration
