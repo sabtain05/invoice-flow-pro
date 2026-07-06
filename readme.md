@@ -37,7 +37,7 @@ The project demonstrates real-world full-stack architecture including secure aut
 - Delete Clients
 - Search Clients
 
-### 📄 Invoice Management
+### Invoice Management
 
 - Create Professional Invoices
 - Edit Existing Invoices
