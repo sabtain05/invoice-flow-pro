@@ -253,7 +253,7 @@ It helps the project reach more developers.
 
 ---
 
-# 📄 License
+# License
 
 This project is licensed under the MIT License.
 
