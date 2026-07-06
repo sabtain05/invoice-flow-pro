@@ -10,7 +10,7 @@
 
 ---
 
-## 📖 Overview
+## Overview
 
 Invoice Flow Pro is a modern invoice management platform designed for freelancers, agencies, startups, and small businesses.
 
