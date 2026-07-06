@@ -104,7 +104,7 @@ The project demonstrates real-world full-stack architecture including secure aut
 
 ---
 
-# 📁 Project Structure
+# Project Structure
 
 ```
 invoice-flow-pro/
