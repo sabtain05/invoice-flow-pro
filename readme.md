@@ -196,7 +196,7 @@ npm start
 
 ---
 
-# 📈 Future Improvements
+# Future Improvements
 
 - Stripe Integration
 - PayPal Integration
