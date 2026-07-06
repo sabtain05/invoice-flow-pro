@@ -61,7 +61,7 @@ The project demonstrates real-world full-stack architecture including secure aut
 - Paid Invoices
 - Monthly Analytics
 
-### 📄 PDF Export
+### PDF Export
 
 - Generate Professional PDF Invoices
 - Download Invoices
