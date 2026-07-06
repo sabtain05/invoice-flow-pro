@@ -30,7 +30,7 @@ The project demonstrates real-world full-stack architecture including secure aut
 - Protected Routes
 - Password Encryption
 
-### 👥 Client Management
+### Client Management
 
 - Add Clients
 - Edit Client Information
