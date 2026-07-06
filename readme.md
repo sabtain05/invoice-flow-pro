@@ -47,7 +47,7 @@ The project demonstrates real-world full-stack architecture including secure aut
 - Tax & Discount Support
 - Invoice Status Tracking
 
-### 💰 Payment Tracking
+### Payment Tracking
 
 - Pending
 - Paid
